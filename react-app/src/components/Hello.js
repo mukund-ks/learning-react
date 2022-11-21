@@ -3,7 +3,7 @@
 // }
 const msg = 'This is your computer.'
 const display = ()=>'I need help.';
-const Hello = () => <h1>Hello there! {msg} {display()}</h1>
+const Hello = () => (<h1>Hello there! {msg} {display()}</h1>);
 
 export default Hello;
 
